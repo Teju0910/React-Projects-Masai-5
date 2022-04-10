@@ -1,0 +1,43 @@
+body {
+    margin-left: 10%;
+}
+tr,
+th,
+td {
+border: 1px ;
+padding: 10px;
+column-width: 450px;
+margin: 10px;
+box-shadow: rgba(115, 194, 218, 0.16) 0px 3px 6px, rgba(29, 144, 211, 0.23) 0px 3px 6px;
+}
+#delete{
+    width: 100px;
+}
+input {
+  border: 0.5px;
+  margin-left: 5px;
+box-shadow: rgba(82, 144, 202, 0.1) 0px 20px 25px -5px, rgba(102, 145, 197, 0.04) 0px 10px 10px -5px;
+}
+#item, #qty {
+  color: blue;
+  width: 500px;
+  padding : 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(53, 24, 158, 0.19) 0px 10px 20px, rgba(35, 40, 102, 0.23) 0px 6px 6px;
+}
+#sub{
+    width: 100px;
+    padding : 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(53, 24, 158, 0.19) 0px 10px 20px, rgba(35, 40, 102, 0.23) 0px 6px 6px;
+}
+img {
+  width: 70px;
+}
+#head{
+  display: flex;
+  padding: 10px;
+}
+
