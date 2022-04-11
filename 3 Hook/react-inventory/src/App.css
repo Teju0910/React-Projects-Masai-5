@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.circlularButton {
+  background: transparent;
+  border: none;
+  background: coral;
+  border-radius: 50%;
+}
+span{
+  width: 80px;
+}
