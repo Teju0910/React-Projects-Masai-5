@@ -1,0 +1,49 @@
+{
+  "Restorent": [
+    {
+      "name": "Family Resto",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&usqp=CAU",
+      "food": "Roti,Paneer,Sweet",
+      "prize": "220",
+      "rating": 4.2,
+      "votes": 232,
+      "rivew": 22,
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": false
+      },
+      "id": 1
+    },
+    {
+      "name": "Chintu ka Dhaba",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfiR4moLxZCdruLdUnV8D-8pnpWn6a3k9EA&usqp=CAU",
+      "food": "Panner Makhani,Dal Tadka,Pulav",
+      "prize": "30",
+      "rating": "5",
+      "votes": "123",
+      "rivew": "123",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": false
+      },
+      "id": 2
+    },
+    {
+      "name": "Burger King",
+      "image": "https://www.foodbusinessnews.net/ext/resources/2020/5/BKAtHome_Lead.jpg?t=1588594467&width=1080",
+      "food": "Burger,Pizza,Soft Drinks",
+      "prize": "123",
+      "rating": "4",
+      "votes": "445",
+      "rivew": "455",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": false
+      },
+      "id": 3
+    }
+  ]
+}

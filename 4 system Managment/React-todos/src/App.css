@@ -1,0 +1,56 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/z/to-do-list-white-paper-pencils-background-template-56711188.jpg");
+background-size: cover;
+}
+.App{
+  /* background-color:rgb(218, 230, 238); */
+  /* background-image:url("https://media.istockphoto.com/photos/blue-background-picture-id157571423?k=20&m=157571423&s=612x612&w=0&h=GxSD_uRBNlBtsvXo54kGstPong-zzqKR545fF1Y5Mws="); */
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 500px;
+  border: 1px solid rgb(33, 15, 15);
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+  border-radius: 100px;
+  font-family:cursive;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.Singletodo{
+  padding: 2px;
+  border: 1px solid rgb(25, 9, 9);
+  margin: 5px;
+  border-radius: 10px;
+  justify-content: space-around;
+  display: flex;
+  height: 60px;
+  padding-top: -5px;
+}
+input{
+  width: 350px;
+  padding: 5px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 10px;
+
+}
+.checkbox{
+  height: 20px;
+  width: 20px;
+  margin: 0px 40px;
+}
+
+.tododone{
+  text-decoration: line-through;
+  background-color: rgb(243, 224, 234);
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "title": "Pen",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "Milk",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Note",
+      "status": true,
+      "id": 3
+    },
+    {
+      "title": "Book",
+      "status": false,
+      "id": 4
+    }
+  ]
+}

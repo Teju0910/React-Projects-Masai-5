@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "username": "json-server",
+      "age": 23,
+      "email": "trha@123"
+    },
+    {
+      "username": "Tejas",
+      "age": "23",
+      "email": "",
+      "id": 2
+    },
+    {
+      "username": "Tejas",
+      "age": "23",
+      "email": "",
+      "id": 3
+    }
+  ]
+}
