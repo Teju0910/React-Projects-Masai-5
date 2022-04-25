@@ -2,7 +2,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Allpage } from './components/Allpage';
-import { Form } from './components/Form';
+// import { Formadd } from './components/Formadd';
+import 'antd/dist/antd.css';
 
 // import { Todos } from './components/Todos';
 
