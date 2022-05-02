@@ -5,15 +5,16 @@ import Stopwatch from './components/Stopwatch';
 import Timmer from './components/Timmer';
 
 function App() {
-  
+  const [show,setshow] = useState(true);
 
   return (
     <div className="App">
-      <Stopwatch/> 
-      <Timmer/>
 
-      <button>STOPWATCH</button>
-      <button>TIMER</button>
+<button onClick={()=> setshow(!show)}>
+     {show ? "Display Timer" : "Display Stopwatch" }
+      </button> 
+{show ?  <Stopwatch/> :  <Timmer/>}
+         
     </div> 
   );
 }

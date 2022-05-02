@@ -7,9 +7,13 @@ const Stopwatch = () =>{
     const[active,setactive] = useState(false);
     const[pause,setpause] = useState(false)
     const timeRef = useRef(null);
-
+    const[startt,setstart] = useState(0);
 
     const handelstart = () =>{
+        if( startt == 1){
+            return
+          }
+          setstart(1)
         setactive(true);
         setpause(true)
         timeRef.current = setInterval(()=>{
@@ -33,6 +37,7 @@ const Stopwatch = () =>{
         setactive(false)
         setpause(false)
         settime(0)
+        setstart(0)
     }
     
 
